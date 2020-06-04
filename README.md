@@ -6,7 +6,7 @@ Copy any code snippet to your clipboard (<kbd>ctrl</kbd>+<kbd>C</kbd> or <kbd>ct
 
 Put the cursor where you want it to type;
 
-Press <kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>r</kbd> and watch peoples reaction!
+Press <kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>r</kbd> and get a million views with no effort!!!
 
 
 ![Replay Clipboard](demo.gif)
