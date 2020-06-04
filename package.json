@@ -2,7 +2,7 @@
 	"name": "vscode-replay-clipboard",
 	"displayName": "VSCode Replay Clipboard",
 	"description": "Pretends to type whatever you have in your clipboard",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"engines": {
 		"vscode": "^1.45.0"
 	},
@@ -42,7 +42,7 @@
         },
         "replay-clipboard.minimumDelay": {
           "type": "number",
-          "default": 0,
+          "default": 70,
           "description": "Minimum delay between key strokes"
 				},
 				"replay-clipboard.maximumDelay": {

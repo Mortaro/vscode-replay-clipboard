@@ -101,7 +101,8 @@ async function run() {
     }
 		type(character);
     await delay();
-	}
+  }
+  running = false;
 }
 
 async function activate(context) {
