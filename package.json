@@ -1,6 +1,6 @@
 {
-	"name": "replay-clipboard",
-	"displayName": "Replay Clipboard",
+	"name": "vscode-replay-clipboard",
+	"displayName": "VSCode Replay Clipboard",
 	"description": "Pretends to type whatever you have in your clipboard",
 	"version": "0.0.1",
 	"engines": {
