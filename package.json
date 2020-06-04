@@ -2,9 +2,14 @@
 	"name": "vscode-replay-clipboard",
 	"displayName": "VSCode Replay Clipboard",
 	"description": "Pretends to type whatever you have in your clipboard",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.45.0"
+	},
+	"publisher": "ChristianMortaro",
+	"repository": {
+		"type" : "git",
+		"url" : "https://github.com/Mortaro/vscode-replay-clipboard"
 	},
 	"categories": [
 		"Other"
@@ -26,7 +31,27 @@
 				"key": "ctrl+alt+r",
 				"mac": "shift+cmd+r"
 			}
-		]
+		],
+		"configuration": {
+      "title": "Replay Clipboard",
+      "properties": {
+        "replay-clipboard.typoChance": {
+          "type": "number",
+          "default": 2,
+          "description": "Chance of having a typo when typing each character"
+        },
+        "replay-clipboard.minimumDelay": {
+          "type": "number",
+          "default": 0,
+          "description": "Minimum delay between key strokes"
+				},
+				"replay-clipboard.maximumDelay": {
+          "type": "number",
+          "default": 250,
+          "description": "Maximum delay between key strokes"
+        }
+      }
+    }
 	},
 	"scripts": {
 		"lint": "eslint .",
